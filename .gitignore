@@ -1,0 +1,23 @@
+# Entornos virtuales locales
+venv/
+.venv/
+env/
+ENV/
+
+# Archivos de caché del sistema e intérprete
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Variables de entorno y llaves secretas
+.env
+.env.*
+
+# Configuraciones de IDEs
+.vscode/
+.idea/
